@@ -18,7 +18,8 @@
     <div id="intro">
         <h1>Darryl Nichols<br/>
             A Full Stack Portfolio</h1>
-        <p>Full Stack Dev skilled in Python, Django, Django Rest Framework, SQL, JavaScript, React, HTML, CSS, Tableau, and R. <br>
+        <p>Full Stack Dev skilled in Python, Django, Django Rest Framework, SQL, JavaScript, React, HTML, CSS, Tableau,
+            and R. <br>
             <a href="https://www.linkedin.com/in/darryl-nichols-515048bb/">@DarrylNichols</a>
         </p>
         <ul class="actions">
@@ -35,6 +36,9 @@
     <nav id="nav">
         <ul class="links">
             <li class="active"><a href="index.html">Projects</a></li>
+            <li class="active"><a href="#expenseapp">Expense Tracker App</a></li>
+            <li class="active"><a href="#taskapp">Task App</a></li>
+            <li class="active"><a href="#dataprojects">Data Analytics Projects</a></li>
 
         </ul>
         <ul class="icons">
@@ -50,7 +54,38 @@
 
         <!-- Featured Post -->
         <article class="post featured">
-            <header class="major">
+            <header class="major" id="expenseapp">
+                <h2>Expense Tracker App</h2><br><h4>Create, Read, Delete functionality:</h4>
+            </header>
+
+            <div class="row">
+                <div class="col col-4 text-left" style="text-align: left">
+                    <h4>Notable Functionality:</h4>
+                    <ul>
+                        <li>Dynamically Display current balance.</li>
+                        <li>Show amounts for income and expense categories.</li>
+                        <li>View transaction history.</li>
+                        <li>Add and Delete transactions.</li>
+                        <li>Display red (expense) or green (income) border for transactions</li>
+                        <li>Stylish and responsive interface.</li>
+                    </ul>
+                </div>
+                <div class="col col-8">
+                    <a href="https://github.com/dnich02f/react-expense-tracker" class="image fit"><img
+                            src="images/ExpenseTrackerv2.gif" alt=""/></a>
+                </div>
+            </div>
+
+            <ul class="actions special">
+                <li><a href="https://github.com/dnich02f/react-expense-tracker" class="button">View Project - Markdown
+                    on
+                    Github</a></li>
+            </ul>
+        </article>
+
+        <!-- Featured Post -->
+        <article class="post featured">
+            <header class="major" id="taskapp">
                 <h2>Simple Task App</h2><br><h4>Create, Read, Update, Delete functionality:</h4>
             </header>
 
@@ -58,18 +93,19 @@
                 <div class="col col-6">
                     <p>React and Django Rest Framework</p>
                     <a href="https://github.com/dnich02f/react-drf-todo-app" class="image fit"><img
-                        src="images/ToDoCRUDReact.gif" alt=""/></a>
+                            src="images/ToDoCRUDReact.gif" alt=""/></a>
                 </div>
                 <div class="col col-6">
-                     <p>JavaScript and Django Rest Framework</p>
+                    <p>JavaScript and Django Rest Framework</p>
                     <a href="https://github.com/dnich02f/django-rest-framework-todo-app.git" class="image fit"><img
-                        src="images/ToDoCRUD.gif" alt=""/></a>
+                            src="images/ToDoCRUD.gif" alt=""/></a>
                 </div>
             </div>
 
             <div class="container col-12" style="text-align: left">
                 <div class="text-left col col-4">
-                    <ul> Notable Functionality:
+                    <h4>Notable Functionality: </h4>
+                    <ul>
                         <li>Create new tasks with a title.</li>
                         <li>Edit existing tasks.</li>
                         <li>Mark tasks as completed or incomplete with a strike-through.</li>
@@ -85,9 +121,11 @@
 
 
             <ul class="actions special">
-                <li><a href="https://github.com/dnich02f/react-drf-todo-app" class="button">View *React* Project - Markdown on
+                <li><a href="https://github.com/dnich02f/react-drf-todo-app" class="button">View *React* Project -
+                    Markdown on
                     Github</a></li>
-                <li><a href="https://github.com/dnich02f/django-rest-framework-todo-app.git" class="button">View *JavaScript* Project - Markdown on
+                <li><a href="https://github.com/dnich02f/django-rest-framework-todo-app.git" class="button">View
+                    *JavaScript* Project - Markdown on
                     Github</a></li>
             </ul>
         </article>
@@ -96,7 +134,7 @@
         <section class="posts">
             <article>
                 <header>
-                    <h2><a href="https://github.com/dnich02f/DannysDinerCaseStudy">Danny's Diner Analysis<br/>
+                    <h2 id="dataprojects"><a href="https://github.com/dnich02f/DannysDinerCaseStudy">Danny's Diner Analysis<br/>
                         SQL Project</a></h2>
                 </header>
                 <a href="https://github.com/dnich02f/DannysDinerCaseStudy" class="image fit"><img
